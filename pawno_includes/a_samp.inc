@@ -151,7 +151,7 @@ native Menu:GetPlayerMenu(playerid);
 
 // Text Draw
 #define TEXT_DRAW_FONT_SPRITE_DRAW	 4
-#define TEXT_DRAW_FONT_MODEL_PREVIEW 5
+#define TEXT_DRAW_FONT_MODEL_PREVIEW 	5
 
 native Text:TextDrawCreate(Float:x, Float:y, text[]);
 native TextDrawDestroy(Text:text);
@@ -207,9 +207,9 @@ native IsValidVehicle(vehicleid);
 #define DIALOG_STYLE_MSGBOX				0
 #define DIALOG_STYLE_INPUT				1
 #define DIALOG_STYLE_LIST				2
-#define DIALOG_STYLE_PASSWORD			3
-#define DIALOG_STYLE_TABLIST			4
-#define DIALOG_STYLE_TABLIST_HEADERS	5
+#define DIALOG_STYLE_PASSWORD				3
+#define DIALOG_STYLE_TABLIST				4
+#define DIALOG_STYLE_TABLIST_HEADERS			5
 
 native ShowPlayerDialog(playerid, dialogid, style, caption[], info[], button1[], button2[]);
 
